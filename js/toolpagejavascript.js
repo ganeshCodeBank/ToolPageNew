@@ -153,6 +153,17 @@ $(document).ready(function(){
     $("#rem-mch").addClass("machine-active"); 
    
   });
+  $("#imp-sub-btn").click(function(){
+     $(".add-impact").hide();
+    $(".impact-Body").show();
+   
+  });
+
+  $("#imp-add").click(function(){
+     $(".impact-Body").hide();
+    $(".add-impact").show();
+   
+  });
 
 
 });
